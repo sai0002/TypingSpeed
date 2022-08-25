@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(117, 169, 180);
+  color: black;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.timer, .errors,
+.accuracy, .cpm, .wpm {
+  background-color: violet;
+  height: 60px;
+  width: 70px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 20%;
+  box-shadow: rgb(88, 60, 60) 5px 8px 5px;
+}
+
+.cpm, .wpm  {
+  display: none;
+}
+
+.header_text {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm,
+.curr_wpm {
+  font-size: 40px;
+}
+
+.quote {
+  background-color: #ccda46;
+  font-size: 25px;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: rgb(103, 76, 76) 5px 8px 5px;
+}
+
+.input_area {
+  background-color: whitesmoke;
+  height: 80px;
+  width: 40%;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 15px;
+  padding: 20px;
+  border: 0px;
+  box-shadow: rgb(70, 60, 60) 5px 8px 5px;
+}
+
+.incorrect_char {
+  color: red;
+  text-decoration: underline;
+}
+
+.correct_char {
+  color: darkgreen;
+}
+
+.restart_btn {
+  display: none;
+  background-color: #567776;
+  font-size: 25px;
+  padding: 10px;
+  border: 0px;
+  box-shadow: black 5px 8px 5px;
+}
